@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+:root {
+  --mainPink: #ef7998;
+  --mainYellow: rgb(249, 228, 148);
+  --mainWhite: #fff;
+  --mainBlack: #000;
+  --yellowTrans: rgba(249, 228, 148, 0.5);
+  --mainGrey: rgb(238, 238, 238);
+}
+
+body {
+  font-family: "Kaushan Script", cursive;
+  background: var(--mainWhite);
+  color: var(--mainBlack);
+}
+
+/* Navbar */
+/* .navbar{
+  width: 1200px;
+  max-width: 1000px;
+} */
+.navbar img {
+  width: 50px;
+}
+
+.navbar-toggler {
+  color: var(--mainPink) !important;
+  border: none !important;
+}
+
+.toggler-icon {
+  color: var(--mainPink) !important;
+  font-size: 2rem;
+  outline: none !important;
+}
+
+.nav-link {
+  color: var(--mainPink) !important;
+  font-family: "Kaushan Script", cursive;
+
+  transition: all 1s ease-in-out;
+}
+
+.nav-link:hover {
+  color: var(--mainBlack) !important;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+}
+
+/* cart styles */
+.cart-info-icon {
+  color: var(--mainBlack);
+}
+
+.cart-info {
+  color: var(--mainBlack);
+  border: 0.1rem solid var(--mainBlack);
+  border-radius: 0.25rem;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+}
+
+.cart-info:hover {
+  background: var(--mainPink);
+  border-color: var(--mainPink);
+  color: var(--mainWhite);
+}
+.cart-info:hover .cart-info-icon {
+  color: var(--mainWhite);
+}
+/* banner-styling */
+.max-height {
+  min-height: calc(100vh - 80px);
+  background: linear-gradient(var(--yellowTrans), var(--yellowTrans)),
+    url(./img/grandma-sweet/headerBcg.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.banner h1 {
+  color: var(--mainWhite);
+  margin-top: -4rem;
+}
+.banner-title {
+  color: var(--mainPink);
+  font-size: 4rem;
+}
+/* services section */
+.card-img {
+  height: 150vh;
+ 
+}
+.footer-icons, .contact-icons, i:hover{
+  color: var(--mainPink) !important;
+}
+
+
