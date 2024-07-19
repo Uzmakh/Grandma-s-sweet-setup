@@ -1,0 +1,2 @@
+This is a John smilga Grandma's Sweet Setup webpage in Bootstrap. I find it a worth-creating project. Normally, he did a lot of custom css in his project, though I primarily rely upon Bootsyrap-5 classes. As it was a practice for Kodecamp-4.0 frontend Beginner's Promotional Task-5.
+This is a completely responsive webpage, started with mobile-first approach. I completed this project in a day, to my full devotion.
