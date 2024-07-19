@@ -15,11 +15,6 @@ body {
   color: var(--mainBlack);
 }
 
-/* Navbar */
-/* .navbar{
-  width: 1200px;
-  max-width: 1000px;
-} */
 .navbar img {
   width: 50px;
 }
@@ -27,17 +22,12 @@ body {
 .navbar-toggler {
   color: var(--mainPink) !important;
   border: none !important;
-}
-
-.toggler-icon {
-  color: var(--mainPink) !important;
   font-size: 2rem;
-  outline: none !important;
 }
 
 .nav-link {
   color: var(--mainPink) !important;
-  font-family: "Kaushan Script", cursive;
+  /* font-family: "Kaushan Script", cursive; */
 
   transition: all 1s ease-in-out;
 }
@@ -75,7 +65,7 @@ body {
 .max-height {
   min-height: calc(100vh - 80px);
   background: linear-gradient(var(--yellowTrans), var(--yellowTrans)),
-    url(./img/grandma-sweet/headerBcg.jpeg);
+    url(./img/bg/headerBcg.jpeg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -93,10 +83,9 @@ body {
 /* services section */
 .card-img {
   height: 150vh;
- 
 }
-.footer-icons, .contact-icons, i:hover{
+.footer-icons,
+.contact-icons,
+i:hover {
   color: var(--mainPink) !important;
 }
-
-
