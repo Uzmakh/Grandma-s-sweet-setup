@@ -22,12 +22,12 @@
 
   <body>
     <!-----------------------------------------
-      Header with Navbar and Banner Section
+      Header with Navbar and Banner-BGImage
    ------------------------------------------>
     <header>
-      <nav class="navbar navbar-expand-lg px-5">
+      <nav class="navbar navbar-expand-lg px-5 bg-danger-subtle bg-opacity-75">
         <div class="container-fluid">
-          <a href="#" class="navbar-brand">
+          <a href="index.html" class="navbar-brand">
             <img src="img/sweet-logo.png" alt="logo icon" />
           </a>
           <button
@@ -47,10 +47,12 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav text-capitalize mx-auto">
               <li class="nav-item">
-                <a href="/" class="nav-link active" aria-current="page">home</a>
+                <a href="index.html" class="nav-link active" aria-current="page"
+                  >home</a
+                >
               </li>
               <li class="nav-item">
-                <a href="about.html" class="nav-link">about</a>
+                <a href="/about.html" class="nav-link">about</a>
               </li>
               <li class="nav-item">
                 <a href="store.html" class="nav-link">store</a>
@@ -96,21 +98,18 @@
         <!-- container-fluid -->
       </nav>
       <!-- end of nav -->
-
       <!-----------------
-          Banner Section
+          Banner BG-Image
         ------------------>
       <div class="container-fluid">
-        <div class="row max-height justify-content-center align-items-center">
+        <div
+          class="row banner-bgimage justify-content-center align-items-center"
+        >
           <div class="col-10 mx-auto text-center banner">
-            <h1 class="text-capitalize">
-              welcome to <strong class="banner-title">grandma's</strong>
+            <h1 class="text-capitalize mt-4">
+              welcome to
+              <strong class="banner-title">grandma's</strong>
             </h1>
-            <a
-              href="#store"
-              class="btn btn-outline-dark fs-5 border-4 opacity-75 text-uppercase my-2"
-              >explore</a
-            >
           </div>
           <!-- col-10 -->
         </div>
@@ -120,109 +119,9 @@
 
       <!-- end of banner -->
     </header>
-
-    <!----------------------
-         Services Section 
-     ------------------------->
-    <section id="services" class="services">
-      <!-- for background image to set in this section -->
-      <div class="card text-bg-dark">
-        <img
-          src="img/bg/servicesBcg.jpeg"
-          class="card-img opacity-50"
-          alt="background preparing baking material"
-        />
-        <div class="card-img-overlay mb-sm-5 p-0 align-content-center">
-          <div class="container-fluid">
-            <div class="row px-sm-5">
-              <!-- single service -->
-              <div class="col-md-4 text-center">
-                <img src="img/sweet-icons/bread-icon.png" alt="bread icon" />
-                <h6 class="text-uppercase mark service-title">bread</h6>
-                <p class="w-75 mx-auto">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Expedita nam voluptatum molestias, eaque aperiam
-                  harum.Expedita nam voluptatum molestias, eaque aperiam harum.
-                </p>
-              </div>
-              <!--end of
-           single service -->
-              <!-- single service -->
-              <div class="col-md-4 text-center">
-                <img src="img/sweet-icons/candy-icon.png" alt="candy icon" />
-                <h6 class="text-uppercase mark service-title">candy</h6>
-                <p class="w-75 mx-auto">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Expedita nam voluptatum molestias, eaque aperiam
-                  harum.Expedita nam voluptatum molestias, eaque aperiam harum.
-                </p>
-              </div>
-              <!--end of
-           single service -->
-              <!-- single service -->
-              <div class="col-md-4 text-center">
-                <img
-                  src="img/sweet-icons/cupcake-icon.png"
-                  alt="cupcake icon"
-                />
-                <h6 class="text-uppercase mark service-title">cupcake</h6>
-                <p class="w-75 mx-auto">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Expedita nam voluptatum molestias, eaque aperiam
-                  harum.Expedita nam voluptatum molestias, eaque aperiam harum.
-                </p>
-              </div>
-              <!--end of
-           single service -->
-            </div>
-            <!-- row -->
-          </div>
-          <!-- card-img-overlay -->
-        </div>
-        <!-- card -->
-      </div>
-      <!-- container -->
-    </section>
-    <!-- End of services section -->
-    <!-----------------
-                 Best Bakery
-              ----------------->
-    <div class="container-fluid bg-light my-5 py-5 pt-0">
-      <div class="container">
-        <div
-          class="bg-mainYellow text-light rounded-bottom p-5 my-6 mt-0 wow fadeInUp"
-          data-wow-delay="0.1s"
-        >
-          <div class="row g-4 align-items-center">
-            <div class="col-lg-6">
-              <h1 class="display-4 text-light mb-0">
-                The Best Bakery In Your City
-              </h1>
-            </div>
-            <!-- col-lg-6 -->
-            <div class="col-lg-6 text-lg-end">
-              <div class="d-inline-flex align-items-center text-start">
-                <i class="fa fa-phone-alt fa-4x flex-shrink-0"></i>
-                <div class="ms-4">
-                  <p class="fs-5 fw-bold mb-0">Call Us</p>
-                  <p class="fs-1 fw-bold mb-0">+123 456 7890</p>
-                </div>
-              </div>
-            </div>
-            <!-- col-lg-6 -->
-          </div>
-          <!-- row -->
-        </div>
-        <!-- bg -->
-      </div>
-      <!-- container -->
-    </div>
-    <!-- container-fluid -->
-
-    <!-----------------
-                 Order Section
-              ----------------->
-
+    <!--------------------
+         Order Section
+    ---------------------->
     <section id="cakes" class="cakes py-5">
       <div class="container">
         <!-- order-title -->
@@ -289,7 +188,9 @@
       </div>
     </section>
     <!-- End of order section -->
-    <!-- FOOTER -->
+    <!--------------------
+         Footer
+    ---------------------->
     <footer class="container-fluid">
       <div class="row text-center">
         <div class="col-md-6 bg-black py-5 mx-auto text-center">

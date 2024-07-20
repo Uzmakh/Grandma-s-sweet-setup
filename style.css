@@ -15,6 +15,11 @@ body {
   background: var(--mainWhite);
   color: var(--mainBlack);
 }
+
+.banner-bgimage{
+  min-height:40vh;
+    background: linear-gradient(var(--yellowTrans), var(--yellowTrans));
+    }
 .bg-mainYellow{
   background: var(--mainYellow);
 }
@@ -117,6 +122,7 @@ body {
 .card-img {
   height: 150vh;
 }
+.services-icons,
 .footer-icons,
 .contact-icons,
 i:hover {
