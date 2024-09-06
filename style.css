@@ -14,6 +14,7 @@ body {
   font-family: "Kaushan Script", cursive;
   background: var(--mainWhite);
   color: var(--mainBlack);
+    overflow-x: hidden;
 }
 
 .banner-bgimage{
@@ -28,7 +29,7 @@ body {
    ====================== */
 
 ::-webkit-scrollbar {
-  width: 2vw;
+  width: 1.5vw;
 }
 
 ::-webkit-scrollbar-track {
@@ -76,6 +77,9 @@ body {
 .nav-item {
   font-size: 1.5rem;
 }
+.btn {
+  color: var(--mainPink);
+}
 
 /* cart styles */
 .cart-info-icon {
@@ -120,11 +124,47 @@ body {
 
 /* services section */
 .card-img {
-  height: 150vh;
+  height: 100vh;
 }
 .services-icons,
 .footer-icons,
 .contact-icons,
 i:hover {
   color: var(--mainPink) !important;
+}
+/* cart */
+.cart {
+  min-height: 10rem;
+  background: var(--mainWhite);
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: 0;
+  right: -22px;
+  width: 0;
+  overflow: hidden;
+}
+
+.show-cart {
+  width: 18rem;
+  padding: 2rem 1.8rem;
+  transform: rotate(-360deg);
+}
+
+.cart-item {
+  transition: all 2s ease-in-out;
+}
+
+.cart-item-remove {
+  color: var(--mainPink);
+  transition: all 1s ease-in-out;
+}
+
+.cart-item-remove:hover {
+  color: var(--mainBlack);
+  transform: scale(1.1);
+}
+
+.cart-item-price {
+  font-size: 0.8rem;
 }
